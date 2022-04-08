@@ -33,7 +33,7 @@ input {
 	display: block;
 }
 
-img {
+#home-img {
 	max-width: 300px;
 }
 
@@ -41,4 +41,21 @@ img {
 	background-color: yellow;
 	padding: 20px;
 	font-size:small;
+	font-weight:bold;
+}
+
+.restaurants {
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+
+.rest {
+	display:flex;
+	flex-direction:column;
+}
+
+.rest-img {
+	width: 100px;
+	height: 100px;
 }
